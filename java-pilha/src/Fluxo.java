@@ -3,7 +3,11 @@ public class Fluxo {
 	
     public static void main(String[] args) {
         System.out.println("Ini do main");
-        metodo1();
+        try {
+	        metodo1();
+		} catch (ArithmeticException | NullPointerException e) {
+			System.out.println(e.getMessage());
+		}
         System.out.println("Fim do main");
     }
 
@@ -17,6 +21,9 @@ public class Fluxo {
         System.out.println("Ini do metodo2");
         for(int i = 1; i <= 5; i++) {
             System.out.println(i);
+			//int a = i / 0;
+			Conta c = null;
+			c.depositar();
         }
         System.out.println("Fim do metodo2");
     }
