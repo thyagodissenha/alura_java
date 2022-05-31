@@ -5,7 +5,7 @@ public class FluxoComError {
         System.out.println("Ini do main");
         try {
 	        metodo1();
-		} catch (ArithmeticException | NullPointerException | MinhaExcecao e) {
+		} catch (ArithmeticException | NullPointerException e) {
 			System.out.println("Exception " + e.getMessage());
 			e.printStackTrace();
 		}
