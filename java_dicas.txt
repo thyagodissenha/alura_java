@@ -1,3 +1,9 @@
 IllegalStateException - Excessao de estado inválido
 NullPointerException - Excessao de ponteiro nulo
 IllegalArgumentException - Excessao de número negativo
+
+FQN - Full Qualified Name (pacote.classe)
+
+Eclipse
+
+Crtl+Shift+O
