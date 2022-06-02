@@ -4,6 +4,20 @@ IllegalArgumentException - Excessao de número negativo
 
 FQN - Full Qualified Name (pacote.classe)
 
+Javadoc
+
+@author (usado na classe ou interface)
+@version (usado na classe ou interface)
+@param (usado no método e construtor)
+@return (usado apenas no método)
+@exception ou @throws (no método ou construtor)
+@see
+@since
+@serial
+@deprecated
+
+Executar jar -> java -jar arquivo.jar. Na configuração escolher a classe main
+
 Eclipse
 
 Crtl+Shift+O
